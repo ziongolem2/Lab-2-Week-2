@@ -1,0 +1,43 @@
+Saul Resendiz
+9/11/2024
+                                                                              LAB 2
+
+CH.2 Programming Project 1:
+
+# Ingredients for 1 loaf
+water = 1.5  
+yeast = 1    
+flour = 4.5 
+oil = 2      
+
+# Recieve Input
+number_of_loaves = int(input('How many loaves do you want to make? '))
+
+# Calculate ingredients 
+water = round(water * number_of_loaves, 1)
+yeast = round(yeast * number_of_loaves, 1)
+flour = round(flour * number_of_loaves, 1)
+oil = round(oil * number_of_loaves, 1)
+
+# Display final output
+print(f'You need {water} cups of warm water, {yeast} tablespoons of yeast, {flour} cups of all-purpose flour, and {oil} tablespoons of oil.')
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CH 2. Programming Project 2:
+
+# Input
+number_of_penguins = int(input('Enter the number of penguins: '))
+number_of_seals = int(input('Enter the number of seals:  '))
+number_of_polar_bears = int(input('Enter the number of polar bears: '))
+
+# Calculate monthly intake with variables; rounding to nearest whole number as well
+penguins_monthly_intake = round((number_of_penguins * daily_penguin_ration) * 30)-------
+seals_monthly_intake = round((number_of_seals * daily_seal_ration) * 30)
+polar_bears_monthly_intake = round((number_of_polar_bears * daily_polar_bear_ration) * 30)
+
+# Display final output of food consumation; 
+print(f'The food consumed by penguins is {penguins_monthly_intake} kg')
+print(f'The food consumed by seals is {seals_monthly_intake} kg')
+print(f'The food consumed by polar bears is {polar_bears_monthly_intake} kg')
